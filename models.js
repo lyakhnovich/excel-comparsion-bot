@@ -1,3 +1,4 @@
+process.env.NTBA_FIX_319 = 1
 const sequelize = require('./db');
 const {DataTypes} = require('sequelize');
 
