@@ -1,4 +1,3 @@
-process.env.NTBA_FIX_319 = 1
 const {Sequelize} = require('sequelize');
 
 module.exports = new Sequelize(

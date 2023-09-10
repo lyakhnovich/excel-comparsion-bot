@@ -1,4 +1,3 @@
-process.env.NTBA_FIX_319 = 1
 const TelegramApi = require('node-telegram-bot-api')
 const {gameOptions, againOptions} = require('./options')
 const sequelize = require('./db');
