@@ -1,5 +1,5 @@
 const TelegramApi = require('node-telegram-bot-api')
-const {gameOptions, againOptions} = require('./options')
+// const {gameOptions, againOptions} = require('./options')
 // const sequelize = require('./db');
 // const UserModel = require('./models');
 
@@ -14,7 +14,7 @@ const startGame = async (chatId) => {
     await bot.sendMessage(chatId, `Сейчас я загадаю цифру от 0 до 9, а ты должен ее угадать!`);
     const randomNumber = Math.floor(Math.random() * 10)
     chats[chatId] = randomNumber;
-    await bot.sendMessage(chatId, 'Отгадывай', gameOptions);
+    // await bot.sendMessage(chatId, 'Отгадывай', gameOptions);
 }
 
 const start = async () => {
